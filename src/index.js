@@ -4,6 +4,10 @@ import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import {Router, Route, Link, Switch, IndexRoute} from 'react-router';
+import createHistory from 'history/createBrowserHistory'
+
+import { ConnectedRouter, routerReducer, routerMiddleware, push } from 'react-router-redux'
+
 
 ReactDOM.render((
     <Router>
