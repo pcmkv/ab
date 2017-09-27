@@ -1,0 +1,84 @@
+
+@font-face {
+  font-family: "Material Icons";
+  src:url('./fonts/Material-Icons-new.css');
+}
+
+@font-face {
+  font-family: "material icons";
+  src:url('./fonts/material-icons.css');
+}
+
+
+@font-face {
+  font-family: "font awesome";
+  src:url('./fonts/font-awesome/css/font-awesome.css');
+}
+
+.left-menu{
+  background-color: #38386E;
+  width: 80px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  max-height:100%;
+  z-index: 1100;
+}
+.title{
+  padding: 0 15px !important;
+  line-height: 45px !important;
+}
+.title i{
+  font-size: 52px;
+  color: #FFFFFF;
+}
+nav.navigation{
+  box-shadow: none;
+  background-color: transparent !important;
+}
+.mdi-logo_nuevo:before {
+  content: "\e103";
+}
+.navigation-link
+{
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+}
+.navigation-link:hover{
+  text-decoration: none;
+  background-color: #57386E;
+}
+.navigation-link i
+{
+  font-size: 24px;
+  color: #FFFFFF;
+}
+.navigation-link p
+{
+  margin: 0;
+  color: #FFFFFF;
+  font-size: 12px;
+  background: transparent;
+}
+.navigation-link a > p
+{
+  text-transform: uppercase;
+}
+.mdi-cloud_upload:before {
+  content: "\e9d5";
+}
+.mdi-grid_on:before{
+  content: "\eaa9";
+}
+.mdi-group_add:before {
+  content: "\eaab";
+}
+.mdi-person:before {
+  content: "\eb86";
+}
+.fa-power-off:before {
+  content: "\f011";
+}

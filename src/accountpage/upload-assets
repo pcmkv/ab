@@ -1,0 +1,51 @@
+import React, { Component } from 'react';
+
+class UploadAssets extends Component {
+    render() {
+        return (
+            <div id="inputs" className="col-md-12">
+                <div className="col-md-2 col-sm-6 col-xs-12 inputs-add inline">
+                    <div className="input-group">
+								<span className="input-group-btn">
+									<button className="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect m-0 height-45 verde p-0" type="button" tabindex="-1" data-upgraded=",MaterialButton,MaterialRipple">
+                                        <i className="mdi mdi-add inline"></i>
+                                        <span className="mdl-button__ripple-container">
+                                            <span className="mdl-ripple"></span>
+                                        </span>
+                                    </button>
+								</span>
+                        <input type="text" className="form-control" placeholder="Add asset" aria-describedby="name1" />
+                    </div>
+                </div>
+                <div className="col-md-2 col-sm-6 col-xs-12 inputs-add inline">
+                    <div className="input-group">
+								<span className="input-group-btn">
+									<button className="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect m-0 height-45 morado p-0" type="button" tabindex="-1" data-upgraded=",MaterialButton,MaterialRipple">
+                                        <i className="mdi mdi-add inline"></i>
+                                        <span className="mdl-button__ripple-container">
+                                            <span className="mdl-ripple"></span>
+                                        </span>
+                                    </button>
+								</span>
+                        <input type="text" className="form-control" placeholder="Add folder" aria-describedby="name1" />
+                    </div>
+                </div>
+                <div className="col-md-8 col-sm-6-col-xs-12 inputs-add inline">
+                    <div className="input-group">
+								<span className="input-group-btn">
+									<button className="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect m-0 height-45 p-0" type="button" tabindex="-1" data-upgraded=",MaterialButton,MaterialRipple">
+                                        <i className="mdi mdi-search inline"></i>
+                                        <span class="mdl-button__ripple-container">
+                                            <span className="mdl-ripple"></span>
+                                        </span>
+                                    </button>
+								</span>
+                        <input type="text" className="form-control" placeholder="Search assets" aria-describedby="name1" />
+                    </div>
+                </div>
+            </div>
+        );
+    }
+}
+
+export default UploadAssets;
