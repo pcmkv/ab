@@ -1,0 +1,22 @@
+.footer{
+  background-color: #212153;
+  color: #FFFFFF;
+  padding: 40px;
+}
+footer ul li{
+  display: inline-block;
+  padding: 0 15px;
+  font-size: 14px;
+}
+footer ul li a:hover, footer ul li a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.m-b{
+  margin-bottom: 0;
+}
+@media (max-width: 768px) {
+  footer .col-xs-12 {
+    text-align: center;
+  }
+}
